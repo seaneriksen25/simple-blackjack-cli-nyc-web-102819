@@ -1,7 +1,7 @@
 def welcome
   # code #welcome here
   expect($stdout).to 
-  print("Welcome to the Blackjack Table")
+  recieve print("Welcome to the Blackjack Table")
 end
 
 def deal_card
